@@ -1,9 +1,143 @@
 body {
-    color: #444;
-    font-family: Arial, sans-serif;
+ min-width:575px;
+ width: auto !important;
+ width: 575px;
+   background-color: Khaki ;
+   font-family: 'Montserrat';
+   border-style: none groove none groove;
 }
 
-.container {
-    width: 100%;
-    max-width: 960px;
+
+.container-fluid {
+   width: 85%;
+   border-style: none groove none groove;
+   border-width: 65px;
+   border-color: #1a0d00;
+   border-radius: 50px;
 }
+
+#map {
+
+  width: auto !important;
+
+    background-color: 'Wheat' ;
+    font-family: 'Montserrat';
+    border-style: none groove none groove;
+       height: 500px;
+       width: 95%;
+       opacity: 0;
+  
+
+      }
+
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+#tableScroll {
+  height:500px;
+  overflow:auto;
+  margin-top:20px;
+}
+#tableWrapper {
+  position:relative;
+  width:100%;
+  height: 500px;
+}
+
+h1.navbar-brand1[href="#"]{
+ font-family: 'Montserrat';
+   font-size: 60px;
+   font-weight: bold;
+   font-size: 5vw;  //ADD MIN AND MAX RESPONSIVE
+   text-align: center !important;
+   margin-right: -5px;
+   color: Brown;
+   float: left;
+   letter-spacing: 5vw;
+}
+h1.navbar-brand2[href="#"]{
+ font-family: 'Montserrat';
+   font-size: 60px;
+   font-weight: bold;
+   font-size: 5vw;  //ADD MIN AND MAX RESPONSIVE
+   text-align: center !important;
+   margin-right: -5px;
+   color: LightSkyBlue ;
+   float: left;
+   letter-spacing: 5vw;
+}
+h1.navbar-brand3[href="#"]{
+ font-family: 'Montserrat';
+   font-size: 60px;
+   font-weight: bold;
+   font-size: 5vw;  //ADD MIN AND MAX RESPONSIVE
+   text-align: center !important;
+   margin-right: -5px;
+   color: Maroon;
+   float: left;
+   letter-spacing: 5vw;
+}
+
+.buttons-nav{
+  opacity: 0;
+}
+.head-text{
+  opacity:0;
+}
+button[type = "buttonTop"]{
+ font-size: 25px;
+ border-radius: 5px;
+ background-color: Maroon;
+ color: #1a0d00;
+ border-color: #331a00;
+ padding: 0px 15px;
+}
+#startMapButton {
+  background-color:#57068c;
+  font-weight: bold;
+  color: white;
+}
+input[type = button]{
+  font-size: 35px;
+  font-weight: bold;
+  color: LightSkyBlue;
+  border-radius: 500px;
+  background-color: Maroon;
+  border-color: LightSkyBlue;
+  padding: 0px 16px;
+}
+button[type = "button"]{
+ font-size: 20px;
+ border-radius: 2px;
+ background-color: LightSkyBlue;
+
+ color: #1a0d00;
+ border-color: #331a00;
+ width: 100%;
+
+}
+td,th{
+ font-family: 'Montserrat';
+ border-collapse: separate;
+ border: #353B40 3px solid !important;
+ text-align: center !important;
+ background-color: #262A2D;
+ color: white;
+ width: 200px;
+
+}
+#floating-panel {
+        position: absolute;
+        top: 150px;
+        left: 30%;
+        right: 30%;
+        z-index: 100;
+        padding: 0px;
+        text-align: center;
+        font-family: 'Montserrat';
+        line-height: 150px;
+        padding-left: 0px;
+      }
